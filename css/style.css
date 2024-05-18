@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+}
+h1{
+    color:blue;
+    background:red
+}
+/*selector de id*/
+#principal{
+    color: yellow;
+    background-color:blue;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 3px;
+
+h2{
+    color: blueviolet;
+    background-color: brown;
+}
+/*selector de clase*/
+.azul{
+    color: blue;
+
+}
+/*selector de etiqueta*/
+}
+p{
+    color:red;
+    background-color: aqua;
+}
+ol{
+    color: rgb(186, 226, 43);
+    background-color: brown;
+    list-style:upper-alpha;
+}
+ul{
+    color: black;
+    list-style-type:circle;
+    background-color: darkslategray;
+}
+#desorden{
+    list-style-type:lower-roman;
+    color: darkolivegreen;
+    background-color: maroon;
+}
+.relleno{
+    color: seagreen;
+    background-color: aqua;
+    list-style:upper-roman;
+}
+.estilos1{
+  font-family: "Press Start 2P", system-ui;
+ background-color: blueviolet;
+   font-weight: 400;
+  font-style: normal;   
+  letter-spacing: 5px;
+ word-spacing: 5px;
+  text-shadow: 20pt;
+  text-decoration:double;
+}
+nav{
+    text-align: right;
+}
+header{
+    text-align: left;
+}
+footer{
+    background-color: rgba(127, 255, 212, 0.397);
+}
+.video{
+    text-align: center;
+}
+table{
+    background-color: cornflowerblue;
+}
+thead{
+    background-color: blueviolet;
+}
+td{
+    color: green;
+}
+.reseso{
+    background-color: yellow;
+}
+#buscador{
+    text-align: right;
+}
+input{
+    color: rgb(0, 150, 250);
+    background-color: rgba(250, 83, 83, 0.699);
+}
+.button{
+    color: darkturquoise;
+    background-color: aliceblue;
+    width: 80px;
+}
+#consultamiento{
+    text-align: center;
+}

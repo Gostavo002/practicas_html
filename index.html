@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2.Practica de hojas de estilo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <img src="image/puma.png" width="400" height="200" alt="puma el tigrito">
+        <nav>
+            <a href="nosotros.html" target="_blank">Personal</a>
+            <a href="#contacto">datos de contacto</a>
+            <a href="#consulta">Hazme una consulta</a>
+        </nav>
+    </header>
+    <main>
+        <section id="buscador">
+            <form target="_blank" action="https://google.com/search">
+                buscar en google
+                <input type="text" name="q" placeholder="ecribe algo press enter" size="40">
+                <input type="submit" value="buscar">
+                <button>buscar</button>
+            </form>
+        </section>
+        <section id="practicas">
+            <h1 id="principal">practicas</h1>
+
+            <p class="estilos1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has been the
+                industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a
+                type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                containing
+
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                versions of
+                Lorem Ipsum</p>
+        </section>
+        <section id prac>
+            <img src="image/descarga.jpg" alt="la vakita">
+
+            <h1>practiacando estilos</h1>
+
+            <p class="azul"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker
+                including versions of Lorem Ipsum.</p>
+        </section>
+        <section>
+            <h1>listas ordenades</h1>
+            <ol>
+                <li>inline</li>
+                <li>gobales</li>
+                <li>en archivos externos</li>
+                <ul id="desorden">
+                    <li>minilista</li>
+                    <li>algo</li>
+                </ul>
+            </ol>
+
+        </section>
+        <section id="consulta">
+            <h2>Hazme una consulta</h2>
+            <form id="consultamiento" action="">
+                <div>
+                    <label for="nombre">nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div>
+                    <label for="texto">escribe tu consulta:</label>
+                    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="tipo">tipo de cliente</label>
+                    <select name="tipo" id="tipo">
+                        <option value="j">juridico</option>
+                        <option value="n">natural</option>
+                        <option value="g">gubernamental</option>
+                    </select>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div>&nbsp;</div>
+                <input type="checkbox" name="" id="politicas">
+                <label for="politicas">estoy de a cuerdo con las politicas de privacidad</label>
+                <div>
+                    <div>&nbsp;</div>
+                    <button class="button">enviar consulta</button><input class="button" type="reset" name="borrar">
+                </div>
+            </form>
+        </section>
+        <section>
+            <h1>videos</h1>
+            <article class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n_hlMr-D0aM?si=sBxA311JApD2613_"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+        <section>
+            <h1>audios</h1>
+            <audio src="audios/caballo-homosexual-de-las-montanas.mp3" loop muted controls></audio>
+        </section>
+        <section>
+            <h1>listas desordenadas</h1>
+            <ul>
+                <li>con frameworks</li>
+                <li>sin frameworks</li>
+                <ol class="relleno">
+                    <li>lista relleno</li>
+                    <li>mas relleno</li>
+                    <li></li>
+                </ol>
+            </ul>
+        </section>
+        <section>
+            <h2>horario de clases</h2>
+            <table border="1" align="center" width="500px">
+                <thead>
+                    <tr>
+                        <th>hora</th>
+                        <th>lunes</th>
+                        <th>martes</th>
+                        <th>miercoles</th>
+                        <th>jueves</th>
+                        <th>vierners</th>
+                        <th>sabado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:15-8:30</td>
+                        <td>educ. Fisica</td>
+                        <td>Matematicas</td>
+                        <td>Fisica</td>
+                        <td>Biologia</td>
+                        <td>Quimica</td>
+                        <td>html</td>
+                    </tr>
+                    <tr>
+                        <td>8:30-10:00</td>
+                        <td colspan="6" align="center" class="reseso">reseso</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-11:30</td>
+                        <td>ingles</td>
+                        <td>castellano</td>
+                        <td>Biologia</td>
+                        <td>Matematicas</td>
+                        <td>Fisica</td>
+                        <td>html</td>
+                    </tr>
+                    <tr>
+                        <td>11:30-1:00</td>
+                        <td></td>
+                        <td>fisica</td>
+                        <td></td>
+                        <td>Biologia</td>
+                        <td></td>
+                        <td>logica python</td>
+                    </tr>
+                    <tr>
+                        <td>1:00-2:30</td>
+                        <td></td>
+                        <td></td>
+                        <td>castellano</td>
+                        <td></td>
+                        <td>Matematicas</td>
+                        <td>python</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h1 id="contacto">contactos</h1>
+        <p><a href="https://api.whatsapp.com/send/?phone=584145183935&text&type=phone_number&app_absent=0"
+                target="_blank">contacto</a> <a href="https://www.facebook.com/cadif1" target="_blank">
+                <img src="image/face.png" width="100" alt="">
+    </footer>
+    </a></p>
+</body>
+
+</html>
